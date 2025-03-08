@@ -108,7 +108,6 @@
   }
 
   &__card--2 {
-
     @include on-tablet {
       transition: all $timeAnimation;
       transform: translate(0, -50%);
@@ -120,7 +119,6 @@
   }
 
   &__card--4 {
-
     @include on-tablet {
       transition: all $timeAnimation;
       transform: translate(0, -50%);
@@ -129,8 +127,6 @@
         transform: translate(0, -50%) scale(1.04);
       }
     }
-
-
   }
 
   &__card-number-bg {
